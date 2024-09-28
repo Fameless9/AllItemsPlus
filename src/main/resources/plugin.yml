@@ -1,0 +1,37 @@
+name: AllItemsPlus
+version: '1.0-SNAPSHOT'
+main: net.fameless.allItemsPlus.AllItemsPlus
+api-version: '1.21'
+prefix: AllItems+
+authors: [ Fameless9 ]
+description: All items, mobs, biomes, advancements
+website: https://github.com/Fameless9
+
+commands:
+  language:
+    permission: "allitems.language"
+    permission-message: "Lacking permission: 'allitems.language'!"
+    aliases: [ lang ]
+  timer:
+    permission: "allitems.timer"
+    permission-message: "Lacking permission: 'allitems.timer'!"
+  settings:
+    permission: "allitems.settings"
+    permission-message: "Lacking permission: 'allitems.settings'!"
+    aliases: [ menu ]
+  exclude:
+    permission: "allitems.exclude"
+    permission-message: "Lacking permission: 'allitems.exclude'!"
+    description: "toggle exclusion of an objective"
+  missingobjectives:
+    description: "open a GUI showing unfinished objectives"
+    aliases: [ missing ]
+  finishedobjectives:
+    description: "open a GUI showing finished objectives"
+    aliases: [ finished ]
+  leaderboard:
+    description: "open a GUI showing players and their scores"
+    aliases: [ scoreboard ]
+  togglebossbar:
+    description: "toggle the bossbar on/off for oneself"
+    aliases: [ tb ]
