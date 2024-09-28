@@ -32,7 +32,7 @@ dependencies {
 }
 
 group = "net.fameless"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 description = "AllItemsPlus"
 java.sourceCompatibility = JavaVersion.VERSION_21
 

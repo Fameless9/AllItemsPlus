@@ -161,7 +161,7 @@ public class SettingsCommand implements CommandExecutor, Listener, InventoryHold
             case 6 -> AllItemsPlus.get().getGameManager().setChainModeEnabled(!AllItemsPlus.get().getGameManager().isChainModeEnabled());
             case 26 -> {
                 TextComponent toClick = new TextComponent(Lang.getCaption("prefix") + ChatColor.BLUE + ChatColor.UNDERLINE + "Link to GitHub");
-                toClick.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.google.de/"));
+                toClick.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/Fameless9/AllItemsPlus/issues"));
                 event.getWhoClicked().spigot().sendMessage(toClick);
                 event.getWhoClicked().closeInventory();
             }
