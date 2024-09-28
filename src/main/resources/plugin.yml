@@ -1,5 +1,5 @@
 name: AllItemsPlus
-version: '1.0.0'
+version: '1.0.1'
 main: net.fameless.allItemsPlus.AllItemsPlus
 api-version: '1.21'
 prefix: AllItems+

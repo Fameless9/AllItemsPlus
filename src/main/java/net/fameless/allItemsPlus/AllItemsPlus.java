@@ -4,6 +4,8 @@ import net.fameless.allItemsPlus.game.*;
 import net.fameless.allItemsPlus.game.command.*;
 import net.fameless.allItemsPlus.language.Lang;
 import net.fameless.allItemsPlus.language.LanguageCommand;
+import net.fameless.allItemsPlus.util.UpdateChecker;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class AllItemsPlus extends JavaPlugin {
@@ -58,6 +60,9 @@ public final class AllItemsPlus extends JavaPlugin {
         getCommand("togglebossbar").setExecutor(bossbarCommand);
 
         getCommand("timer").setTabCompleter(timer);
+
+        new Metrics(this, 23483);
+        new UpdateChecker(119891);
     }
 
     @Override
